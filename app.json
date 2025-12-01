@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Kiba",
+    "slug": "kiba",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-square.png",
+    "scheme": "kiba",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nowitservices.kiba"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/forelogo3.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nowitservices.kiba"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4df97c6e-bc24-400e-b617-22e03cad7b95"
+      }
+    },
+    "owner": "nowit"
+  }
+}
